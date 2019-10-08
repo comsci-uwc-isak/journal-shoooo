@@ -24,3 +24,76 @@ As I have been doing terribly on IB tests even though I understand the contents,
 Reflection for 9/26/2019
 Today, I worked on my IA especially on the website.
 Things that I need to work on are: recording system, login system, and the main website that will provide users access to Augmented reality.
+
+Reflection for 9/27/2019
+
+Reflection for 10/4/2019
+
+
+Reflection for 10/1/2019
+
+
+Reflection for 10/3/2019
+We took a test on Topic 3: Internet today. Although the contents felt fairly easy and something I already knew, but I have been messing up every test in CS class, so my expectation is pretty low.
+
+Reflection for 10/4/2019
+
+Reflection for 10/8/2019
+We got our test results back which was dispressing and disappointing. However, since I already have 4 in CS class, there is only going up from this point.
+I also submitted my task about getting statistics of our test results. I thought I cannot use libraries but apparently not. So that was great.
+Happy that I don't have to code in Java.
+
+//code
+var values = [21, 33, 26, 39, 28, 32.5, 18.5, 27, 31.5, 29, 26.5, 31.5, 24, 35.5, 22.5, 25, 25.5, 19];
+var sum =0;
+
+var getAvg = function() {
+    for (let i=0;i<values.length;i++){
+        sum += values[i];
+    }
+    let mean = sum/values.length;
+    return mean;
+};
+
+var bubbleSort = function() {
+    for (let i=0;i<values.length;i++) {
+        for (let j=0;j<values.length;j++) {
+            if (values[j]>values[j+1]) {
+                let temp = values[j];
+                values[j] = values[j+1];
+                values[j+1] = temp;
+            }
+        }
+    }
+    return bubbleSort;
+};
+
+var getMed = function() {
+    bubbleSort();
+    let mid = values.length/2;
+    return values[mid];
+}
+
+var getQuartile = function(pos) {
+    let index = values.length * pos;
+    if(index % 1 != 0) {
+        indexUp = Math.ceil(index);
+        indexDown = Math.floor(index);
+        total = values[indexUp-1] + values[indexDown-1];
+        ans = total/2;
+        return ans;
+    } else {
+        return values[index];
+    }
+}
+
+var getIQR = function() {
+    IQR = getQuartile(0.75) - getQuartile(0.25);
+    return IQR;
+}
+
+console.log(getAvg());
+console.log(getMed());
+console.log(getQuartile(0.25));
+console.log(getQuartile(0.75));
+console.log(getIQR());
