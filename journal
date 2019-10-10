@@ -97,3 +97,21 @@ console.log(getMed());
 console.log(getQuartile(0.25));
 console.log(getQuartile(0.75));
 console.log(getIQR());
+
+Reflection for 10/10/2019
+Today, we watched a cartoon show called The Magic School Bus. The episode was about network and it had almost all the components of Topic 3: Network. 
+Dr. Ruben gave HL students a task to do which is to recreate the parking lot system. It seems pretty hard...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
