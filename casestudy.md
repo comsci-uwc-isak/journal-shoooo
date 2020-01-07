@@ -5,4 +5,8 @@
 5. Distribution of bitcoin owners?
   30% owners own 98.3%
   1% of world population owns 45%
-6. What is a market tree?
+6. What is a Merkle tree?
+
+Define: nonrepudiation
+
+Nonrepudiation is the assurance that someone cannot deny something. Typically, nonrepudiation refers to the ability to ensure that a party to a contract or a communication cannot deny the authenticity of their signature on a document or the sending of a message that they originated. To repudiate means to deny
