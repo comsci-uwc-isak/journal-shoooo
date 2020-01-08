@@ -9,4 +9,11 @@
 
 Define: nonrepudiation
 
-Nonrepudiation is the assurance that someone cannot deny something. Typically, nonrepudiation refers to the ability to ensure that a party to a contract or a communication cannot deny the authenticity of their signature on a document or the sending of a message that they originated. To repudiate means to deny
+Nonrepudiation simply means that one party cannot reject the validity of a certain action or claim of other parties. Nonrepudiation ensures integrity of data all across the internet.
+
+Nonrepudiation is the assurance that someone cannot deny something. Typically, nonrepudiation refers to the ability to ensure that a party to a contract or a communication cannot deny the authenticity of their signature on a document or the sending of a message that they originated. 
+
+Collision
+Determinism
+Double-spending
+Entropy
